@@ -2,7 +2,7 @@
 <library xmlns="http://www.sap.com/sap.ui.library.xsd">
     <name>com.github.dfenerski.ui5_state</name>
     <vendor>Dimitar Fenerski</vendor>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <copyright>${copyright}</copyright>
     <title>com.github.dfenerski.ui5_state</title>
     <documentation>Native state management library for SAPUI5 / OpenUI5</documentation>

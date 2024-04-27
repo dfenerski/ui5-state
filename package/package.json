@@ -1,6 +1,6 @@
 {
     "name": "ui5-state",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Native state management library for SAPUI5 / OpenUI5",
     "author": "Dimitar Fenerski",
     "license": "Apache-2.0",
