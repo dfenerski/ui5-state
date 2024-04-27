@@ -1,0 +1,1 @@
+{"version":3,"file":"DeepPartial-dbg.js","names":[],"sources":["DeepPartial.ts"],"sourcesContent":["export type DeepPartial<T> = T extends object\r\n    ? {\r\n          [P in keyof T]?: DeepPartial<T[P]>;\r\n      }\r\n    : T;\r\n"],"mappings":"","ignoreList":[]}

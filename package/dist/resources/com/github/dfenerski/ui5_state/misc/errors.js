@@ -1,0 +1,2 @@
+"use strict";sap.ui.define([],function(){"use strict";const e=new Error("Model registration failed: model already exists.");const t=new Error("State service failed: invoked getter for uninitialized property.");const r="Modifications to the virtual property are not allowed.";const o="Deletion of the virtual property is not allowed.";var i={__esModule:true};i.E_MODEL_EXISTS=e;i.E_UNINITIALIZED_GET=t;i.E_NO_VIRTUAL_SET=r;i.E_NO_VIRTUAL_DELETE=o;return i});
+//# sourceMappingURL=errors.js.map

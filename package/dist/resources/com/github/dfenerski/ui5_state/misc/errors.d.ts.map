@@ -1,0 +1,1 @@
+{"version":3,"file":"errors.d.ts","sourceRoot":"..\\..\\..\\..\\..\\..\\..","sources":["src\\com\\github\\dfenerski\\ui5_state\\misc\\errors.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,4CAA4C,CAAC;IACrD,MAAM,cAAc,OAE1B,CAAC;IACK,MAAM,mBAAmB,OAE/B,CAAC;IACK,MAAM,gBAAgB,2DAC+B,CAAC;IACtD,MAAM,mBAAmB,qDACsB,CAAC;CAEtD"}

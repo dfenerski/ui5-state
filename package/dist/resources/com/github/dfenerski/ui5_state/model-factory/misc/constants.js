@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/model/BindingMode"],function(e){"use strict";const s=e.TwoWay;const t=400;var i={__esModule:true};i.DEFAULT_BINDING_MODE=s;i.DEFAULT_SIZE_LIMIT=t;return i});
+//# sourceMappingURL=constants.js.map

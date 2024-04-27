@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/model/json/JSONModel","./misc/constants"],function(e,t){"use strict";const s=t["DEFAULT_BINDING_MODE"];const i=t["DEFAULT_SIZE_LIMIT"];class n{static createModel(t){let{data:n,bindingMode:o,sizeLimit:c}=t;const a=new e(n);a.setDefaultBindingMode(o||s);a.setSizeLimit(c||i);return a}}var o={__esModule:true};o.ModelFactory=n;return o});
+//# sourceMappingURL=Model.factory.js.map

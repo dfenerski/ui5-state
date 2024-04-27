@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/core/Lib"],function(e){"use strict";sap.ui.loader.config({map:{"*":{"ui5-state":"com/github/dfenerski/ui5_state"}}});const i=e.init({name:"com.github.dfenerski.ui5_state",version:"${version}",dependencies:[],types:[],interfaces:[],controls:[],elements:[],noLibraryCSS:true});return i});
+//# sourceMappingURL=library.js.map
