@@ -13,6 +13,7 @@
 		id="page">
 		<content>
 			<Title text="{app>/data}" />
+			<Title text="{foo>/bar}" />
 			<IllustratedMessage
 				title="{i18n>appTitle}"
 				illustrationType="sapIllus-SuccessHighFive"

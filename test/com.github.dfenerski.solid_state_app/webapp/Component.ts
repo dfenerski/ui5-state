@@ -1,6 +1,7 @@
 import Device from 'sap/ui/Device';
 import UIComponent from 'sap/ui/core/UIComponent';
 import { AppStateService } from './model/AppState.service';
+import { FooStateService } from './model/FooState.service';
 import models from './model/models';
 
 /**
@@ -29,8 +30,14 @@ export default class Component extends UIComponent {
 			data: { data: 42 },
 			registrationToken: 'app',
 		});
+		const fooModel = new FooStateService({
+			componentRef: this,
+			data: './model/doo.json',
+			registrationToken: 'foo',
+		});
 		setInterval(() => {
 			appModel.setData(Math.random());
+			fooModel.setBar(`BAR[${Math.random()}]`);
 		}, 100);
 	}
 
