@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "es2022",
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"allowJs": true,
+		"strict": true,
+		"strictNullChecks": false,
+		"strictPropertyInitialization": false,
+		"rootDir": "./webapp",
+		"types": ["@openui5/types", "@types/qunit"],
+		"paths": {
+			"com/github/dfenerski/solid_state_app/*": ["./webapp/*"],
+			"ui5-state/*": [
+				"./node_modules/ui5-state/src/com/github/dfenerski/ui5_state/*"
+			],
+			"unit/*": ["./webapp/test/unit/*"],
+			"integration/*": ["./webapp/test/integration/*"]
+		}
+	},
+	"include": ["./webapp/**/*"]
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "verbatimModuleSyntax": true,
+        "rootDir": "./",
+        "types": ["@openui5/types", "@types/jquery", "@types/qunit"],
+        "paths": {
+            "com/github/dfenerski/ui5_state/*": [
+                "./src/com/github/dfenerski/ui5_state/*"
+            ]
+        }
+    },
+    "include": ["./src/**/*", "./test/**/*"],
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    }
+}

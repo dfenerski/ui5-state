@@ -1,0 +1,22 @@
+# Build results
+dist
+coverage
+!package/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+.DS_Store
+.env
+
+# Artificially synced source files
+test/sandbox/ui5-state
+
+.obsidian
