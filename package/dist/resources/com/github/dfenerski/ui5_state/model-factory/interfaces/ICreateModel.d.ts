@@ -1,3 +1,4 @@
+/// <reference types="openui5" />
 declare module "com/github/dfenerski/ui5_state/model-factory/interfaces/ICreateModel" {
     import BindingMode from 'sap/ui/model/BindingMode';
     import JSONModel from 'sap/ui/model/json/JSONModel';

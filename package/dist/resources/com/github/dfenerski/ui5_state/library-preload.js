@@ -1,7 +1,7 @@
 //@ui5-bundle com/github/dfenerski/ui5_state/library-preload.js
 sap.ui.require.preload({
 	"com/github/dfenerski/ui5_state/State.service.js":function(){
-"use strict";sap.ui.define(["./misc/errors","./model-factory/Model.factory"],function(t,e){"use strict";const o=t["E_MODEL_EXISTS"];const s=e["ModelFactory"];class r{constructor(t){let{registrationToken:e,componentRef:o,skipRegistration:r,existingModelRef:i,...n}=t;this._model=i||s.createModel(n);this._registrationToken=e;this._component=o;r||this.register()}get _data(){return this._model.getData()}get state(){return this._data}get registrationToken(){return this._registrationToken}register(){const t=this._component;const e=this.registrationToken;if(t.getModel(e)){throw o}t.setModel(this._model,e)}set(t){this._model.setData(t,true)}}var i={__esModule:true};i.StateService=r;return i});
+"use strict";sap.ui.define(["./misc/errors","./model-factory/Model.factory"],function(t,e){"use strict";const o=t["E_MODEL_EXISTS"];const r=e["ModelFactory"];class s{constructor(t){let{registrationToken:e,componentRef:o,skipRegistration:s,existingModelRef:i,...n}=t;this._model=i||r.createModel(n);this._registrationToken=e;this._component=o;s||this.register()}get _data(){return this._model.getData()}get state(){return this._data}get registrationToken(){return this._registrationToken}dataLoaded(){return this._model.dataLoaded()}register(){const t=this._component;const e=this.registrationToken;if(t.getModel(e)){throw o}t.setModel(this._model,e)}set(t){this._model.setData(t,true)}}var i={__esModule:true};i.StateService=s;return i});
 },
 	"com/github/dfenerski/ui5_state/interfaces/ICreateNamedModel.js":function(){
 "use strict";Object.defineProperty(exports,"__esModule",{value:true});
